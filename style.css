@@ -25,6 +25,7 @@ body{
      color: white;
      background-color:red ;
      padding: 7px 15px;
+     text-decoration: none;
 }
 .cover-photo img{
         height: 350px;
@@ -61,3 +62,73 @@ body{
      font-size: .8em;
      color: rgba(61, 52, 52, 0.493);
 }
+/* third section  */
+
+.copa-america-2021{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 70px;
+     margin-left: 30px;
+}
+.all-highlight{
+     margin-left:70px ;
+     margin-top: 60px;
+}
+.highlight{
+     font-size: 3em;
+}
+.about-copa{
+     margin-right: 50px;
+     color: rgba(61, 52, 52, 0.493);
+}
+.copa-cover img{
+     width: 720px;
+     height: 480px;
+}
+
+/* extra page  */
+
+.extra-page{
+     background-color: rgba(51, 19, 19, 0.123);
+     height: 350px;
+     width: 100%;
+}
+
+.extra-page:hover{
+     background-color: black;
+     
+    
+    
+}
+.champion{
+     color: rgba(255, 255, 255, 0.623);
+     font-size: 200px;
+     margin-left: 130px;
+}
+.image-section img{
+     width: 1000px;
+     height: 700px;
+     margin-left: 270px;
+}
+/* last section  */
+
+.logo img{
+     margin-left: 400px;
+     margin-top: 100px;
+     height: 150px;
+}
+.symbol{
+     text-align: center;
+     font-size: 2em;
+    
+}
+.fa-instagram ,.fa-dribbble,.fa-twitter{
+     margin-right: 30px;
+}
+/* footer  */
+.copyright{
+     text-align: center;
+     margin-top: 20px;
+     font-size: 1.1em;
+}
+
